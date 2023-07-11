@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.hero, 
+.footer {
+    background-color: #1F2937;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    padding: 16px 150px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+}
+
+.header-links a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 150px;
+    gap: 32px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0px;
+}
+
+.hero-1 {
+    flex: 1;
+}
+
+.hero-image img{
+    width: 600px;
+    flex: 2;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8   
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*  button */
+
+button {
+    background-color: #3882F6;
+    cursor: pointer;
+    padding: 6px 24px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: #F9FAF8;
+}
+
+button#button-1 {
+    border: none;
+}
+
+/* information section */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 48px 64px 48px 64px;
+}
+
+.item {
+    max-width: 200px;
+    text-align: center;
+}
+
+.item img {
+    width: 200px;
+    height: 250px;
+}
+
+/* quote */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 72px 220px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* sign up */
+
+.sign-up{
+    background-color: #3882F6;
+    display: flex;
+    margin: 64px 200px;
+    padding: 32px 64px;
+    justify-content: space-between;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.sign-up-text-header {
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: #E5E7EB;
+}
